@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cars Showroom</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet=" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <script src="scripts/contact.js"></script>
+    </head>
+<body>
+    <nav>
+        <div= class="menu">
+            <div class="logo">
+                <a href="#">CONTACT</a>
+            </div>
+            <ul>
+                <li><a href="index.html">BACK</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="img"></div>
+    <div class="center">
+        <center>
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback, feel free to reach out!</p>
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Messgae" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+                <p id="feedbackMessage"></p>
+            </div>
+        </center>
+        </div>
+</body>
+</html>
