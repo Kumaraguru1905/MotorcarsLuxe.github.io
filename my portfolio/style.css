@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #020617, #0f172a);
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  z-index: 1000;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.hero-text span {
+  color: #38bdf8;
+}
+
+.hero-text h3 {
+  margin: 10px 0 25px;
+  font-weight: 400;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 22px;
+  background: #38bdf8;
+  color: #000;
+  text-decoration: none;
+  margin: 0 8px;
+  border-radius: 4px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+}
+
+/* SECTIONS */
+.section {
+  min-height: 100vh;
+  padding: 120px 60px 60px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* ABOUT */
+.about-box {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-box img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+/* EXPERIENCE */
+.timeline {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: #020617;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 6px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 48px;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project {
+  text-align: center;
+}
+
+.project img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+#contact p {
+  margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
